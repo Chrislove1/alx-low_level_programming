@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * add - adds two integers
- * @n1: integer 1
- * @n2: integer 2
- * Description: give two integers, returns sum
- * Return: sum
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-
-int add(int n1, int n2)
+void print_alphabet(void)
 {
-	int sum;
+	char ch;
 
-	sum = n1 + n2;
+	ch = 'a';
 
-	return (sum);
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+
+	_putchar('\n');
 }
