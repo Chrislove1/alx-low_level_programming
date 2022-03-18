@@ -3,10 +3,10 @@
 /**
  * mul - multiplies two integers
  * @a: int to be multiplied to b
- * @b: int to be mulplied to a
- * Return:the result of the operation
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	int c;
 
