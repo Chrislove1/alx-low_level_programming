@@ -1,13 +1,16 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * print_most_numbers - Prints from 0 to 9 digits exept 2 and 4
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: none
  */
-int _putchar(char c)
+void print_most_numbers(void)
 {
-	return (write(1, &c, 1));
+	int i;
+
+	for (i = 0; i <= 9; i++)
+		if (i != 2 && i != 4)
+			_putchar('0' + i);
+	_putchar('\n');
 }
