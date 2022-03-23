@@ -3,13 +3,13 @@
 
 #include <stdio.h>
 #include <unistd.h>
-#include <main.h>
+#include <math.h>
 
-int _putchar(char c);
-void rest_to_98(int *n);
+void reset_to_98(int *n);
 void swap_int(int *a, int *b);
-int _strlne(char *s);
+int _strlen(char *s);
 void _puts(char *str);
+int _putchar(char c);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
@@ -19,4 +19,3 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
 #endif /* MAIN_H */
-
