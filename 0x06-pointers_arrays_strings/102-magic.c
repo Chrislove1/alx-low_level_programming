@@ -3,7 +3,6 @@
 * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
-
    int main (void)
 *(p+5) = 98;
   *(p+5) = 98;
