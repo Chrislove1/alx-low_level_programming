@@ -1,5 +1,5 @@
 #ifndef FILE_MAIN
-#define "MAIN_H"
+#define MAIN_H
 
 /*copy list from task*/
 
